@@ -7,7 +7,6 @@ import {
   forwardRef,
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import * as uuid from 'uuid';
 import { UniqueIdService } from '../../services/unique-id/unique-id.service';
 
 @Component({
